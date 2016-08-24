@@ -1,0 +1,88 @@
+body{
+  margin: auto;
+}
+
+#capture{
+  position: absolute;
+  z-index: 1;
+  height: 393px;
+  width: 1351px
+}
+
+
+a {
+  text-decoration: none;
+  color:#F8FBEF;
+}
+
+#menu {
+  margin-left: 68%;
+  position:relative;;
+  z-index: 1;
+}
+.titre{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+h1{
+  color: white;
+}
+
+h3{
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+#hote {
+  border: 2px solid white;
+
+  padding:3px 8px;
+  box-sizing: border-box;
+}
+
+video {
+  width: 100%;
+  top:0;
+  left:0;
+  right: 0;
+  display: inline;
+  position: absolute;
+  z-index: -1;
+}
+
+input {
+  display: block;
+  margin:0 auto;
+  width: 800px;
+  height: 40px;
+
+
+}
+
+#bouton {
+  margin-top: 450px;
+  z-index: 1;
+}
+
+.separateur {
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin-top: 590px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+  #bandeau  {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 150px;
+  z-index: -1;
+  position: absolute;
+  top: 600px;
+}
